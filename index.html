@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IT Incident Timeline Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>IT Incident Timeline Generator</h1>
+<p>Masukkan timeline kejadian (satu baris per kejadian).</p>
+<textarea id="timeline" placeholder="08:00 User tidak bisa login
+08:15 Investigasi
+08:40 Masalah ditemukan
+08:55 Service normal"></textarea>
+<button onclick="generateReport()">Generate Report</button>
+<div id="output"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
